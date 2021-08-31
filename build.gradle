@@ -1,0 +1,33 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "net.serenity-bdd:serenity-gradle-plugin:2.4.24"
+    }
+}
+
+
+plugins {
+    id 'groovy'
+    id 'java'
+}
+
+group 'org.accenture'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'net.serenity-bdd:serenity-core:2.5.8'
+    implementation 'net.serenity-bdd:serenity-cucumber5:2.2.6'
+    implementation 'net.serenity-bdd:serenity-junit:2.5.8'
+    implementation 'io.cucumber:cucumber-junit:6.9.1'
+    implementation 'org.apache.poi:poi:4.1.2'
+}
+
+test {
+    include "TestRunner.class"
+}

@@ -1,0 +1,12 @@
+PageObjects/SwagLogin.java
+ PageObjects.SwagLogin
+PageObjects/SwagCart.java
+ PageObjects.SwagCart
+PageObjects/SwagResults.java
+ PageObjects.SwagResults
+PageObjects/SwagInformation.java
+ PageObjects.SwagInformation
+PageObjects/SwagCheckoutOverview.java
+ PageObjects.SwagCheckoutOverview
+PageObjects/SwagCompletePurchase.java
+ PageObjects.SwagCompletePurchase

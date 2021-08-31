@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login in Swag website" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-08-25T13:23:55" hostname="PLX300000001811" time="0.642">
+  <properties/>
+  <testcase name="Login Successful" classname="Login in Swag website" time="0.642">
+    <failure message="io.cucumber.junit.UndefinedStepException: The step &quot;the user is on the Swag login page&quot; is undefined. You can implement it using the snippet(s) below:&#10;&#10;@Given(&quot;the user is on the Swag login page&quot;)&#10;public void the_user_is_on_the_swag_login_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;&#10;&#10;Some other steps were also undefined:&#10;&#10;@When(&quot;the user enters his credentials&quot;)&#10;public void the_user_enters_his_credentials() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the login is successful&quot;)&#10;public void the_login_is_successful() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &quot;the user is on the Swag login page&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;the user is on the Swag login page&quot;)
+public void the_user_is_on_the_swag_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When(&quot;the user enters his credentials&quot;)
+public void the_user_enters_his_credentials() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the login is successful&quot;)
+public void the_login_is_successful() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
