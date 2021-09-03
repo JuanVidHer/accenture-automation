@@ -1,11 +1,11 @@
 package FrontEndSteps.SerenitySteps;
 
-import PageObjects.SwagCart;
-import PageObjects.SwagCheckoutOverview;
-import PageObjects.SwagCompletePurchase;
-import PageObjects.SwagInformation;
-import PageObjects.SwagLogin;
-import PageObjects.SwagResults;
+import pageobjects.SwagCart;
+import pageobjects.SwagCheckoutOverview;
+import pageobjects.SwagCompletePurchase;
+import pageobjects.SwagInformation;
+import pageobjects.SwagLogin;
+import pageobjects.SwagResults;
 import net.thucydides.core.annotations.Step;
 import org.junit.Assert;
 
